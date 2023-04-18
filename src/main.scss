@@ -1,0 +1,16 @@
+@import "bootstrap/scss/bootstrap";
+
+#hero {
+	background-image: url('/hero-bg.jpg');
+}
+
+.usp {
+	display: flex;
+	flex-direction: column;
+
+	.content {
+		background-color: #ddd;
+		flex-grow: 1;
+		// align-self: stretch;
+	}
+}
