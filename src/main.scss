@@ -4,12 +4,16 @@
 	background-image: url('/hero-bg.jpg');
 }
 
+body {
+	background-color: #E4E4E1;
+}
+
 .usp {
 	display: flex;
 	flex-direction: column;
 
 	.content {
-		background-color: #ddd;
+		background-color: #ffffff;
 		flex-grow: 1;
 		// align-self: stretch;
 	}
