@@ -82,3 +82,70 @@ body {
 	left: 50%;
 	transform: translate(-50%, -50%);
   }
+
+  .search-menu {
+	display: flex;
+	align-items: center;
+  }
+  
+  .search-menu > * {
+	margin: 0 10px;
+  }
+  
+  .search-menu > .menu-label {
+	margin-left: auto;
+	padding-right: 10px;
+  }
+
+  .navbar-toggler {
+	border: none;
+	color: #000;
+  }
+
+  .navbar {
+	color: #000;
+	font-size: 16px;
+  }
+
+  .tree1 {
+	transform: translateY(5px) translateX(-3px);
+	.tree1 svg path {
+		fill: #6F6E67;
+	  }
+  }
+  
+  .tree2 {
+	transform: translateY(-2px) translateX(6px);
+  }
+  
+  .tree3 {
+	transform: translateY(8px) translateX(-4px);
+  }
+  
+  .tree4 {
+	transform: translateY(-4px) translateX(4px);
+  }
+  
+  .tree5 {
+	transform: translateY(6px) translateX(2px);
+  }
+  
+  .tree6 {
+	transform: translateY(-6px) translateX(-7px);
+  }
+
+  .cloud1 {
+	transform: translateY(-5px) translateX(-10px);
+  }
+  
+  .cloud2 {
+	transform: translateY(10px) translateX(-5px);
+  }
+  
+  .cloud3 {
+	transform: translateY(50px) translateX(-50px);
+  }
+  
+  .cloud4 {
+	transform: translateY(-20px) translateX(20px);
+  }
