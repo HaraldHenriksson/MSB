@@ -34,3 +34,10 @@ if (submitBtn) {
 if (doneBtn) {
     doneBtn.addEventListener("click", () => togglePages(pageOne, pageThree));
 }
+
+const menyBtn = document.querySelector('.search-menu > div:last-child') as HTMLElement;
+const hamburgerBtn = document.querySelector('.navbar-toggler') as HTMLElement;
+
+menyBtn.addEventListener('click', () => {
+    hamburgerBtn.click();
+});

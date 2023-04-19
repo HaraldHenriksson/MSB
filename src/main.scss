@@ -89,7 +89,7 @@ body {
   }
   
   .search-menu > * {
-	margin: 0 10px;
+	margin: 0 2px;
   }
   
   .search-menu > .menu-label {
@@ -105,6 +105,7 @@ body {
   .navbar {
 	color: #000;
 	font-size: 16px;
+	background-color: #ffffff;
   }
 
   .tree1 {
@@ -148,4 +149,25 @@ body {
   
   .cloud4 {
 	transform: translateY(-20px) translateX(20px);
+  }
+
+  @media (min-width: 768px) {
+	.search-menu {
+	  display: none;
+	}
+  }
+
+  form {
+	h3 {
+	  margin-top: 20px;
+	  margin-bottom: 10px;
+	}
+	input[type="text"] {
+	  display: block;
+	  margin-bottom: 10px;
+	  width: 100%;
+	  padding: 5px;
+	  border: 1px solid #ccc;
+	  border-radius: 3px;
+	}
   }
