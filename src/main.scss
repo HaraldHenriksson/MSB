@@ -170,4 +170,77 @@ body {
 	  border: 1px solid #ccc;
 	  border-radius: 3px;
 	}
+	.longText {
+		height: 200px;
+	}
   }
+
+  .send {
+	background-color: #DB4B32;
+  }
+
+  .priority {
+	border: 1px solid #ccc;
+  }
+
+  input[type="checkbox"] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	border: 2px solid #ccc;
+	outline: none;
+	transition: 0.3s;
+  }
+  
+  input[type="checkbox"]:checked {
+	border-color: #1E88E5;
+  }
+  
+  .team img {
+	width: 100px;
+	height: 100px;
+	border: 1px solid #ccc;
+  }
+  
+
+  footer {
+	background-color: #6f6e67;
+	color: #fff;
+	padding: 30px 0;
+	font-size: 14px;
+  }
+  
+  footer img {
+	max-width: 210px;
+	height: auto;
+	margin-bottom: 30px;
+  }
+  
+  footer h3 {
+	font-size: 18px;
+	margin-bottom: 20px;
+  }
+  
+  footer ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 20px;
+  }
+  
+  footer li {
+	margin-bottom: 5px;
+  }
+  
+  footer a {
+	color: #fff;
+	text-decoration: none;
+  }
+  
+  footer p {
+	margin-bottom: 5px;
+  }
+
+  

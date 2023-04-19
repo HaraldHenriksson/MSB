@@ -64,7 +64,7 @@
 							<p>Om du upptäckt ett möjligt farligt träd så anmäl detta.</p>
 							<p>Om akut ring SOS alarm, 112.</p>
 							<p>Sjukt eller skadat träd där det inte är akut risk att träder faller, kontakta MSB. Du kan ringa, mejla eller besöka oss.</p>
-							<button id="formBtn">Orosanmälan</button>
+							<button id="formBtn">Orosanmälan <i class="fa-solid fa-angle-right"></i></button>
 						</div>
 					</div>
 
@@ -90,7 +90,7 @@
 			</div>
 
 		</section>
-		<section class="py-0 hide" id="pageTwo">
+		<section class="py-0 pb-4 hide" id="pageTwo">
 			<div class="svg-wrapper">
 				<img src="/annie-spratt-NsVyi88pfdg-unsplash.jpg" class="d-inline-block align-text-center" id="image">
 			<object width="139" height="147" data="Alert Element.svg" type="image/svg+xml">
@@ -119,7 +119,7 @@
 							<input type="text">
 
 							<h3>Detaljerad beskrivning</h3>
-							<input type="text">
+							<input class="longText" type="text">
 
 							<h3>Kontakt</h3>
 							<h3>Namn</h3>
@@ -133,7 +133,7 @@
 
 							<section>
 								<button id="back">Tillbaka</button>
-							<button id="submit">Skicka</button>
+							<button id="submit" class="send">Skicka <i class="fa-solid fa-paper-plane"></i></button>
 							</section>
 							
 						</form>
@@ -177,7 +177,30 @@
 				</div>
 			</div>
 		</section>
-	</div>
+		<footer>
+			<div class="container">
+			  <div class="row">
+				<div class="col-md-4">
+				  <img src="/msb_rgb_150ppi.png" alt="MSB logotyp">
+				</div>
+				<div class="col-md-4">
+				  <h3>Kontakta MSB</h3>
+				  <p>TELEFONNUMMER<br>070 000 00 00</p>
+				  <p>E-POST<br>msb@msb.se</p>
+				  <p>POSTADRESS<br>Malmö Stad 211 10</p>
+				  <p>ORGANISATIONSNUMMER<br>202100-5984</p>
+				</div>
+				<div class="col-md-4">
+				  <h3>Andra kontaktvägar</h3>
+				  <ul>
+					<li><a href="#">Press</a></li>
+					<li><a href="#">Besöksadresser och öppettider</a></li>
+				  </ul>
+				  <p>Ett säkrare samhälle i en föränderlig värld</p>
+				</div>
+			  </div>
+			</div>
+		  </footer>
 
 	<script type="module" src="/src/main.ts"></script>
 </body>
