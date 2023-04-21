@@ -50,12 +50,14 @@ body {
 	align-items: center; 
 	height: 57px;
 	width: calc(100% + 30px);
+	font-family: 'Poppins', sans-serif;
   }
 
   h3, p {
 	font-size: 12px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	font-family: 'Open Sans', sans-serif;
   }
 
   button {
@@ -196,7 +198,7 @@ body {
   }
   
   input[type="checkbox"]:checked {
-	border-color: #1E88E5;
+	border-color: #822757;
   }
   
   .team img {
