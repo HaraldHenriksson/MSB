@@ -28,7 +28,10 @@ if (backBtn) {
 }
 
 if (submitBtn) {
-    submitBtn.addEventListener("click", () => togglePages(pageTwo, pageThree));
+    submitBtn.addEventListener("click", (event) => {
+        event.preventDefault();
+        togglePages(pageTwo, pageThree);
+    });
 }
 
 if (doneBtn) {
